@@ -28,6 +28,9 @@ Open the project folder with Visual Studio Code.
 
 Then, right-click `index.html` and choose 'Open with Live Server' extension to view the portfolio website.
 
+## Link Deploy
+Visit here https://revou-fsse-jun25.github.io/milestone-1-perhisi/
+
 
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/akoVEwkh)
