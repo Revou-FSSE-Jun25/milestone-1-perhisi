@@ -44,7 +44,7 @@ If doesn't work check your browser configuration, go to setting then appearance 
 ## Link Deploy
 Visit here https://revou-fsse-jun25.github.io/milestone-1-perhisi/
 
-Tailwind deploy 
+Tailwind deploy https://perhisi.github.io/tailwind/
 
 
 
