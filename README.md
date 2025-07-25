@@ -13,6 +13,8 @@ This project is my portfolio website built using HTML and CSS. It serves as my f
 - Implemented semantic HTML
 - Responsive web design
 - Added CSS styling
+- Added another styling with Tailwind
+- Implemented light and dark mode 
 
 ## Installation
 ```bash
@@ -28,8 +30,21 @@ Open the project folder with Visual Studio Code.
 
 Then, right-click `index.html` and choose 'Open with Live Server' extension to view the portfolio website.
 
+## Usage Tailwind
+
+Open the project folder with Visual Studio Code.
+
+Then, right-click `tailwind.html` and choose 'Open with Live Server' extension to view the portfolio website.
+
+## Usage light and dark mode Tailwind
+
+Right click on your desktop and then personalize, choose color and select your color.
+If doesn't work check your browser configuration, go to setting then appearance and select mode to device.
+
 ## Link Deploy
 Visit here https://revou-fsse-jun25.github.io/milestone-1-perhisi/
+
+Tailwind deploy 
 
 
 

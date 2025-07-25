@@ -53,6 +53,11 @@ body {
   gap: 20px;
 }
 
+.header-social img {
+  width: 30px;
+  height: 30px;
+}
+
 /* Home Section */
 
 h1 {
@@ -208,6 +213,11 @@ button:active {
   color: #00bcd4;
 }
 
+.footer-social img {
+  width: 30px;
+  height: 30px;
+}
+
 /* Responsive Design */
 
 @media (max-width: 479px) {
@@ -272,7 +282,7 @@ a:focus, button:focus, input:focus, textarea:focus {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+  width:40px;
+  height:40px; 
+  object-fit:contain;
 }
