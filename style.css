@@ -1,15 +1,20 @@
 /* --- Modernized Color Palette --- */
 :root {
-  --primary: #8bce85;
+  --primary: #c3b5dfb9;
   --primary-dark: #0f4444;
-  --accent: #00bcd4;
+  --accent: #134261;
   --accent-dark: #0097a7;
   --background: #181a20;
   --background-light: #232526;
+  --bg-card: linear-gradient(
+    135deg,
+    rgb(12, 1, 31) 0%,
+    lightgray 100%
+  );
   --surface: #232526;
-  --surface-light: #414345;
+  --surface-light: #92bbe4;
   --text: #f5f7fa;
-  --text-muted: #b0bec5;
+  --text-muted: #07161d;
   --border: #2c2c2c;
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
 }
@@ -182,10 +187,11 @@ h1 {
 }
 
 .home-card {
-  background: rgba(236, 239, 241, 0.1);
+  background: var(--bg-card);
   border-radius: 1.25rem;
   box-shadow: var(--shadow);
   padding: 3rem 2rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -213,7 +219,7 @@ h1 {
 .home-job {
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--surface-light);
+  color: var(--text-muted);
   margin-bottom: 1rem;
 }
 
@@ -265,10 +271,14 @@ article {
   line-height: 1.8;
   font-size: 1.15rem;
   color: var(--text);
-  background: rgba(30, 30, 30, 0.92);
+  background: var(--bg-card);
   padding: 1.5rem 3rem;
   border-radius: 1.25rem;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+}
+
+article p:hover {
+  color: var(--surface-light);
 }
 
 /* Projects Section */
@@ -304,7 +314,7 @@ article {
 
 .project-img {
   width: 100%;
-  height: 9rem;
+  height: 22rem;
   object-fit: cover;
   background: #222;
 }
@@ -419,7 +429,7 @@ article {
 }
 
 .contact-card {
-  background: rgba(30, 30, 30, 0.92);
+  background: var(--bg-card);
   border-radius: 1.25rem;
   box-shadow: var(--shadow);
   padding: 2rem 2.5rem;
@@ -446,7 +456,7 @@ article {
   padding: 0.85rem;
   border: 1px solid var(--border);
   border-radius: 0.5rem;
-  background: #caa3a3;
+  background: #11010f;
   color: var(--background);
   font-size: 1rem;
   resize: none;
@@ -480,7 +490,7 @@ article {
 }
 
 .contact-info-card {
-  background: rgba(30, 30, 30, 0.92);
+  background: var(--bg-card);
   border-radius: 1.25rem;
   box-shadow: var(--shadow);
   padding: 2rem 2.5rem;
@@ -508,7 +518,7 @@ article {
 
 /* Footer Section Vanilla CSS */
 .footer-section {
-  background: rgba(30, 30, 30, 0.92);
+  background: var(--bg-card);
   margin-top: 2rem;
   border-radius: 1.25rem 1.25rem 0 0;
   box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08) inset;
@@ -582,12 +592,12 @@ article {
   }
 }
 
-@media (min-width: 641px) {
+/* @media (min-width: 641px) {
   .footer-container {
     flex-direction: row;
     gap: 0;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .header-nav {
