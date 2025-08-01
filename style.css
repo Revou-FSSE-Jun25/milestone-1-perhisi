@@ -277,10 +277,6 @@ article {
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
 }
 
-article p:hover {
-  color: var(--surface-light);
-}
-
 /* Projects Section */
 .project {
   display: grid;
@@ -452,7 +448,7 @@ article p:hover {
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
+  width: auto;
   padding: 0.85rem;
   border: 1px solid var(--border);
   border-radius: 0.5rem;
@@ -581,23 +577,16 @@ article p:hover {
 }
 
 /* Responsive Design */
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   
   .home-content {
     padding: 1.5rem 0.5rem;
   }
 
   article {
-    padding: 1.5rem 0.5rem;
+    padding: 1.5rem 1.5rem;
   }
 }
-
-/* @media (min-width: 641px) {
-  .footer-container {
-    flex-direction: row;
-    gap: 0;
-  }
-} */
 
 @media (min-width: 768px) {
   .header-nav {
@@ -646,8 +635,8 @@ textarea:focus {
 }
 
 img {
-  width: 40px;
-  height: 40px;
+  width: 3rem;
+  height: 3rem;
   object-fit: contain;
   border-radius: 0.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
